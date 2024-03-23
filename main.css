@@ -22,6 +22,19 @@
 	box-shadow: 5px 5px var(--color-contrast);
 }
 
+.cardPadder{
+	padding: 1em;
+	border-radius: 0;
+}
+
+.cardText-first{
+	color: var(--color-contrast);
+}
+
+.cardText-secondary{
+	color: var(--color-two);
+}
+
 .itemProgressBarForeground{
 	background: var(--color-three);
 }
