@@ -1,7 +1,21 @@
+:root{
+	--color-one: #DDD888;
+	--color-two: #88DDD8;
+	--color-three: #D889DD;
+	--colot-contrast: #000000;
+}
+
 .backgroundContainer{
-	background-color: #000000;
+	background-color: var(--color-contrast);
 	opacity: 1;
-	background-image:  repeating-linear-gradient(45deg, #ff00f2 25%, transparent 25%, transparent 75%, #ff00f2 75%, #ff00f2), repeating-linear-gradient(45deg, #ff00f2 25%, #000000 25%, #000000 75%, #ff00f2 75%, #ff00f2);
+	background-image:  repeating-linear-gradient(45deg, var(--color-two) 25%, transparent 25%, transparent 75%, var(--color-two) 75%, var(--color-two)), repeating-linear-gradient(45deg, var(--color-two) 25%, var(--color-contrast) 25%, var(--color-contrast) 75%, var(--color-two) 75%, var(--color-two));
 	background-position: 0 0, 38px 38px;
 	background-size: 76px 76px;
+}
+
+.cardOverlayContainer{
+	background: var(--color-one);
+	padding: 1em;
+	border-radius: 0;
+	border: 2px solid var(--color-contrast);
 }
