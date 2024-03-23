@@ -11,7 +11,7 @@
 
 .backgroundContainer {
     /* background-color: #010e18 */
-    background: linear-gradient(to right, rgb(237, 34, 36), rgb(243, 91, 34), rgb(249, 150, 33), rgb(245, 193, 30), rgb(241, 235, 27) 27%, rgb(241, 235, 27), rgb(241, 235, 27) 33%, rgb(99, 199, 32), rgb(12, 155, 73), rgb(33, 135, 141), rgb(57, 84, 165), rgb(97, 55, 155), rgb(147, 40, 142), rgb(237, 34, 36))
+    background: linear-gradient(to right, rgba(237, 34, 36, 0.9), rgba(243, 91, 34, 0.9), rgba(249, 150, 33, 0.9), rgba(245, 193, 30, 0.9), rgba(241, 235, 27, 0.9) 27%, rgba(241, 235, 27, 0.9), rgba(241, 235, 27, 0.9) 33%, rgba(99, 199, 32, 0.9), rgba(12, 155, 73, 0.9), rgba(33, 135, 141, 0.9), rgba(57, 84, 165, 0.9), rgba(97, 55, 155, 0.9), rgba(147, 40, 142, 0.9), rgba(237, 34, 36, 0.9))
         ,url("https://dennis-stinauer.de/cloud/jellyfish/noise.svg");
     animation: movebgright 20s linear infinite;
 }
