@@ -1,7 +1,7 @@
 :root{
 	--color-one: #DDD888;
-	--color-two: #88DDD8;
-	--color-three: #D889DD;
+	--color-three: #88DDD8;
+	--color-two: #D889DD;
 	--color-contrast: #000000;
 }
 
@@ -13,7 +13,7 @@
 	background-size: 76px 76px;
 }
 
-.cardOverlayContainer{
+.cardBox{
 	background: var(--color-one);
 	padding: 1em;
 	border-radius: 0;
