@@ -1,8 +1,17 @@
+@font-face {
+	font-family: "Dotfont";
+	src: url("https://dennis-stinauer.de/cloud/jellyfish/dotfont.ttf");
+}
+
 :root{
 	--color-one: #DDD888;
 	--color-three: #88DDD8;
 	--color-two: #D889DD;
 	--color-contrast: #000000;
+}
+
+body{
+	font-family("Dotfont", Impact, Arial, sans-serif); 
 }
 
 .backgroundContainer{
@@ -52,4 +61,8 @@
 	background: var(--color-three);
 	padding: 1em;
 	margin-top: 1em;
+}
+
+.homeSectionsContainer{
+	padding: 2em;
 }
