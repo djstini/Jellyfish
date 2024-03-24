@@ -23,6 +23,10 @@
     -webkit-mask-image: linear-gradient(180deg, #000, transparent)
 }
 
+.videoPlayerContainer{
+    z-index: 1000;
+}
+
 .withTabs .content-primary {
     padding-top: 1em !important
 }
