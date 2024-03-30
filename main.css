@@ -37,7 +37,8 @@
     -webkit-mask-image: linear-gradient(180deg, #000, transparent)
 }
 
-.videoPlayerContainer{
+.videoPlayerContainer,
+.naubAbunatedPages{
     z-index: 1000;
 }
 
