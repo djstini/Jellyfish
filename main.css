@@ -12,7 +12,7 @@
 .backgroundContainer {
     /* background-color: #010e18 */
     background: url("https://dennis-stinauer.de/cloud/jellyfish/noise.svg");
-    animation: movebgright 20s linear infinite;
+    animation: movebgright 100s linear infinite;
     background-size: 69vw;
 }
 
